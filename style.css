@@ -10,6 +10,7 @@
   /* Card Colors */
   --card-background: hsl(0, 0%, 100%);
   --card-title: hsl(47, 88%, 63%);
+  --border-color: hsl(0, 0%, 0%);
 
   /* Text Colors */
   --text-primary: hsl(0, 0%, 7%);
@@ -73,7 +74,7 @@ body {
   background-color: var(--card-background);
   font-family: var(--font-primary);
   box-shadow: 12px 12px 0 #000;
-  border: 1px solid var(--border-color);
+  border: 2px solid var(--border-color);
   border-radius: 10px;
   width: 384px;
   height: auto;
